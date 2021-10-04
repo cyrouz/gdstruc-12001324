@@ -27,7 +27,7 @@ public class Main {
             System.out.println("\n\nAfter selection sort:");
             printArrayElements(numbers);
         }
-        
+
         private static void selectionSort(int[] arr)
         {
             for (int lastSortedIndex = arr.length - 1; lastSortedIndex > 0; lastSortedIndex--)
