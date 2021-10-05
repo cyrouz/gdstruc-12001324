@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/untitled104.iml" filepath="$PROJECT_DIR$/untitled104.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GDSTRUC.iml" filepath="$PROJECT_DIR$/.idea/GDSTRUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 1/quiz 1 bubbleSort/quiz 1 bubbleSort.iml" filepath="$PROJECT_DIR$/quiz 1/quiz 1 bubbleSort/quiz 1 bubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 1/quiz 1 selectionSort/quiz 1 selectionSort.iml" filepath="$PROJECT_DIR$/quiz 1/quiz 1 selectionSort/quiz 1 selectionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 1/quiz 1 selectionSort smallestValue/quiz 1 selectionSort smallestValue.iml" filepath="$PROJECT_DIR$/quiz 1/quiz 1 selectionSort smallestValue/quiz 1 selectionSort smallestValue.iml" />
     </modules>
   </component>
 </project>
-
