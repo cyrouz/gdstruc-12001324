@@ -1,6 +1,7 @@
 package com.gdstruc.module3;
 
 import java.util.Random;
+
 import java.util.Stack;
 
 public class Main {
@@ -40,11 +41,9 @@ public class Main {
         deck.push(new Card("Nomanz"));
         deck.push(new Card("Aria"));
 
-        // Create the discard pile
         Stack<Card> discardPile = new Stack<>();
 
-        // Start the game
-        SimpleCardGame game = new SimpleCardGame();
+        CardGame game = new CardGame();
         game.setDeck(deck);
         game.setDiscardPile(discardPile);
 
@@ -52,7 +51,6 @@ public class Main {
 
         System.out.println("Number of cards in the deck: " + deckCount);
 
-        // The first player draws 3 cards from the deck
         Card card1 = game.getCardFromDeck();
         Card card2 = game.getCardFromDeck();
         Card card3 = game.getCardFromDeck();
@@ -92,9 +90,6 @@ public class Main {
                 System.out.println(card5);
             }
         }
-
-
-        // The first player discards 3 of his cards
 
             game.discard(card1);
             game.discard(card2);
@@ -160,7 +155,5 @@ public class Main {
                 System.out.println(game.getDiscardPile().peek());
             }
         }
-
-
     }
 }

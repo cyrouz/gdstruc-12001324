@@ -2,16 +2,10 @@ package com.gdstruc.module3;
 
 import java.util.Stack;
 
+public class CardGame {
 
-
-public class SimpleCardGame {
-
-
-
-    // Draw deck
     private Stack<Card> deck;
 
-    // Discard pile
     private Stack<Card> discardPile;
 
     public Card getCardFromDeck() {
@@ -22,10 +16,6 @@ public class SimpleCardGame {
         discardPile.push(card);
     }
 
-    public Card lookAtTopCard() {
-
-        return deck.peek();
-    }
 
     public Stack<Card> getDeck() {
         return deck;
@@ -42,5 +32,4 @@ public class SimpleCardGame {
     public void setDiscardPile(Stack<Card> discardPile) {
         this.discardPile = discardPile;
     }
-
 }
