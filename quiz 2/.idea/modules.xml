@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/quiz 2.iml" filepath="$PROJECT_DIR$/.idea/quiz 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 2 contain/quiz 2 contain.iml" filepath="$PROJECT_DIR$/quiz 2 contain/quiz 2 contain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 2 node count/quiz 2 node count.iml" filepath="$PROJECT_DIR$/quiz 2 node count/quiz 2 node count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quiz 2 remove element/quiz 2 remove element.iml" filepath="$PROJECT_DIR$/quiz 2 remove element/quiz 2 remove element.iml" />
+    </modules>
+  </component>
+</project>
